@@ -1,0 +1,41 @@
+[
+    {
+    "name": "tool.frontend.react",
+    "size": 12,
+    "imports": [
+    "tool.frontend.mapbox",
+    "tool.gis.Qgis",
+    "topic.politics.democracy"
+    ]
+    },
+    {
+    "name": "tool.frontend.mapbox",
+    "size": 2,
+    "imports": []
+    },
+    {
+    "name": "tool.gis.leaflet",
+    "size": 120,
+    "imports": [
+    "tool.gis.Qgis",
+    "tool.frontend.react"
+    ]
+    },
+    {
+    "name": "tool.gis.Qgis",
+    "size": 19,
+    "imports": []
+    },
+    {
+    "name": "topic.gardening.composting",
+    "size": 121,
+    "imports": []
+    },
+    {
+    "name": "topic.politics.democracy",
+    "size": 127,
+    "imports": [
+    "topic.gardening.composting"
+    ]
+    }
+    ]
